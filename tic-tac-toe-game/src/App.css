@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+    text-align: center;
+  
+}
+:root {
+    --yellow: #ffc107;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.turn-highlight{
+    background-color:black;
+    color: #ded9ca;
+    border-radius: 7px;
+    border:1px solid #ffc107 ;
+}
+
+.btn{
+    font-size: 23px;
+    padding: 5px 147px;
+    background-color: #ffc107;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: #ffc107;
+    border-radius: 1px solid #ffc107;
+}
